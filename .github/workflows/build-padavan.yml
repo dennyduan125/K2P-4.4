@@ -42,7 +42,7 @@ jobs:
         cd /opt/rt-n56u/toolchain-mipsel
         sh dl_toolchain.sh
         mkdir -p /opt/images/
-    - name: Build Firmware
+    - name: K2P 4.4
       env:
         TNAME: K2P
         KERNEL: 3.4
